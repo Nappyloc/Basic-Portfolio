@@ -1,47 +1,73 @@
 body {
-  background-image: url(file:///Basic-Portfolio/assets/images/hotel-wallpaper.png);
   font-family: Arial, Helvetica, sans-serif;
   color: #777777;
 }
 header {
   background-color: blueviolet;
 }
+nav {
+  background-color: #ffffff;
+}
 #topnav {
   float: right;
-  margin-right: 2%;
+  padding: 2%;
+  margin-right: 15%;
+}
+.click {
+  clear: both;
+  text-decoration: none;
+  color: #777777;
+  margin-top: 2%;
+  margin-right: 5px;
 }
 #name {
   float: left;
   background-color: #4aaaa5;
   color: #ffffff;
   padding: 1%;
+  margin-bottom: 0%;
+  margin-left: 17%;
 }
 #mainback {
   clear: both;
-  width: 90%;
-  height: 90%;
-}
-#mainsection {
-  width: 960px;
-  background-color: #ffffff;
+  background-image: url("../images/hotel-wallpaper.png");
+  padding: 3%;
+  width: 1320px;
+  height: 600px;
   margin-left: auto;
   margin-right: auto;
+  border-top: 1px solid #eeeeee;
+}
+#mainsection {
+  background-color: #ffffff;
+  width: 960px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #dddddd;
+}
+h2 {
+  color: #4aaaa5;
+  padding: 1%;
+  margin-left: 1%;
+}
+#content {
+  padding: 2%;
 }
 img {
   width: 20%;
   height: 20%;
 }
-#imgs {
-  float: left;
+p {
 }
-aside {
-  background-color: aqua;
-  float: left;
-}
+
 footer {
-  clear: both;
   border-top: 8px solid #4aaaa5;
   text-align: center;
   background-color: #666666;
   color: #ffffff;
+  padding: 1%;
+}
+#cop {
+  margin-bottom: 0%;
 }
